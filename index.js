@@ -11,7 +11,7 @@ app.use(
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173",
+    origin: "https://dttechclient.netlify.app",
   })
 );
 
@@ -29,9 +29,3 @@ const port = 4000;
 
 app.listen(port);
 console.log("listening on port " + port);
-
-
-
-// git branch -M main
-// git remote add origin https://github.com/NikhilGanireddy/DtTechHiringAlpha1.git
-// git push -u origin main
