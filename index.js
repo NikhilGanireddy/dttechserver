@@ -27,5 +27,5 @@ app.get("/", async (req, res) => {
 
 const port = 4000;
 
-app.listen("https://dttechserver.onrender.com");
+app.listen(port);
 console.log("listening on port " + port);
