@@ -11,7 +11,7 @@ app.use(
 app.use(
   cors({
     credentials: true,
-    origin: "https://dttechclient.netlify.app",
+    origin: "http://localhost:5173",
   })
 );
 
